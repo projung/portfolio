@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+
+* { margin:0; padding:0; }
+
+body { font-family:'NanumBarunpen', Arial, sans-serif; line-height:36px; color:#333; background:#f5f2ed; }
+
+.bg2 { } 
+
+
+.project_inner { max-width:1920px; margin:0 auto; margin-bottom:150px; padding-top:150px; }
+.project_img { line-height:0; box-shadow:0 0 20px rgba(0,0,0,0.1); position:relative; }
+
+.back { margin-top:50px; padding-left:50%; margin-left:-40px; }
+.back_button { text-transform:uppercase; display:inline-block; bacgkground:#ff1524; width:80px; height:80px; padding:22px 0 0 20px; 
+				box-sizing:border-box; border-radius:50px; color:#fff; transition:0.5s; }
+
+.back_button a { color:#fff; }
+
+
+
+.back_button a:link { text-decoration:none; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
