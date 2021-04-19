@@ -897,13 +897,13 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: -35px;
 }
 #fh5co-work .section-heading h2 {
-  color: #fff;
+  color: #000; font-weight:bold; letter-spacing:2;
 }
 #fh5co-work .section-heading h2:after {
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(0,0,0, 0.3);
 }
 #fh5co-work .section-heading h3 {
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(0,0,0,0.8);
 }
 #fh5co-work .fh5co-project-item {
   display: block;
@@ -962,7 +962,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .fh5co-person {
-  border: 2px solid #f2f2f2;
+  border: 2px solid #157cff;
   padding: 80px 30px 30px 30px;
   float: left;
   width: 100%;
