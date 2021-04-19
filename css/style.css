@@ -195,7 +195,7 @@ h1, h2, h3, h4, h5, h6 {
   transform-origin: 0 0;
 }
 
-#fh5co-header { 
+#fh5co-header { background:rgba(255,255,255,0.3);
   position: absolute;
   z-index: 99;
   width: 100%;
@@ -203,6 +203,9 @@ h1, h2, h3, h4, h5, h6 {
   top: 0;
   margin-top: 40px;
 }
+
+#fh5co-header .navbar-brand { padding-top:3px !important; }
+
 @media screen and (max-width: 768px) {
   #fh5co-header {
     margin-top: 0;
@@ -213,8 +216,11 @@ h1, h2, h3, h4, h5, h6 {
     box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
   }
   #fh5co-header .navbar-brand {
-    color: #157cff !important; 
+    color: #157cff !important;
+	
   }
+	
+	
   #fh5co-header #navbar li a {
     color: rgba(0, 0, 0, 0.5) !important;
     -webkit-transition: 0.3s;
@@ -244,7 +250,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #fh5co-header #navbar li a {
   font-family: 'NanumBarunpen', Arial, sans-serif;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(0, 0, 0, 0.9);
   position: relative;
   font-size: 19px;
   font-weight: 300;
@@ -275,7 +281,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.3s ease-in-out 0s;
 }
 #fh5co-header #navbar li a:hover {
-  color: #fff;
+  color: #157cff; font-weight:400;
 }
 #fh5co-header #navbar li a:hover span:before {
   visibility: visible;
@@ -288,7 +294,7 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-header #navbar li.active a {
   background: transparent;
   background: none;
-  color: #fff;
+  color: #157cff;
 }
 #fh5co-header #navbar li.active a span:before {
   visibility: visible;
@@ -373,7 +379,6 @@ h1, h2, h3, h4, h5, h6 {
   background-attachment: fixed;
   position: relative;
   width: 100%;
-  background-color: #52d3aa;
   color: #fff;
   overflow: hidden;
 }
@@ -386,7 +391,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 2;
   opacity: .9;
   -webkit-backface-visibility: hidden;
-  background:url("../images/main.jpg");
+  background:url("../images/main.jpg") center center;
   /* IE9, iOS 3.2+ */
   
 }
@@ -470,8 +475,10 @@ h1, h2, h3, h4, h5, h6 {
   -moz-flex-wrap: wrap;
 }
 #fh5co-intro .fh5co-block {
-  width: 33.33%;
+  width:390px;
+	height:360px;
   float: left;
+	box-sizing: border-box;
   text-align: center;
   font-size: 16px;
   min-height: 300px;
@@ -1208,7 +1215,7 @@ h1, h2, h3, h4, h5, h6 {
   background: #fff;
   z-index: 8;
   width: 80px;
-  height: 80px;
+  height: 70px;
   font-size: 30px;
   padding-top: 5px;
   text-align: center;
